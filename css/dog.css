@@ -1,0 +1,173 @@
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.left .top_logo {
+  display: block;
+  text-align: center;
+}
+.left .top_logo img {
+  border: 1px solid #999;
+  border-radius: 40px 40px 0 0;
+  max-width: 100%;
+}
+.left .top_logo span {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  color: purple;
+  font-size: 20px;
+}
+.left nav {
+  border-bottom: 1px solid #222;
+  background: url(../images/dog5.jpeg);
+  width: 100%;
+  border-radius: 0px 0px 40px 40px;
+}
+.left nav a {
+  display: block;
+  padding-left: 35px;
+  height: 50px;
+  line-height: 50px;
+  color: #8b3a55;
+}
+.left nav a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+.left nav a:last-child:hover {
+  border-radius: 0 0 40px 40px;
+}
+@media screen and (max-width: 991px) {
+  .left .top_logo span {
+    display: block;
+    background: url(../images/dog12.jpeg);
+  }
+  .left nav {
+    margin-bottom: 10px;
+    border-radius: 0;
+  }
+  .left nav a {
+    display: block;
+    width: 20%;
+    height: 47px;
+    float: left;
+    line-height: 47px;
+    color: #8b3a55;
+    background: url(../images/dog7.jpeg);
+  }
+  .left nav a:hover {
+    background-color: peachpuff;
+  }
+  .left nav a:last-child:hover {
+    border-radius: 0;
+  }
+}
+.mid .imgs {
+  border-bottom: 1px solid #ccc;
+}
+.mid .imgs a {
+  float: left;
+  width: 25%;
+  height: 133px;
+  border-left: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+  position: relative;
+}
+.mid .imgs a img {
+  width: 100%;
+  height: 100%;
+}
+.mid .imgs a span {
+  width: 100%;
+  height: 44px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  color: #fff;
+  padding: 5px;
+}
+.mid .imgs a:nth-child(1) {
+  width: 50%;
+  height: 266px;
+  border-left: 0px solid #fff;
+}
+.mid .imgs a:nth-child(1) span {
+  font-size: 24px;
+}
+.mid .news .one {
+  border-bottom: 1px solid #ccc;
+}
+.mid .news .one a img {
+  width: 100%;
+  margin: 10px;
+}
+@media screen and (max-width: 767px) {
+  .mid .news .one {
+    border-bottom: 1px solid #ccc;
+  }
+  .mid .news .one a img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mid .imgs a {
+    width: 50%;
+  }
+  .mid .imgs a:nth-child(1) {
+    width: 100%;
+  }
+  .mid .imgs a:nth-child(2n) {
+    border-left: 0;
+    border-right: 5px solid #fff;
+  }
+  .mid .imgs a:nth-child(2n+3) {
+    border-right: 0;
+    border-left: 5px solid #fff;
+  }
+}
+.right .zgbk img {
+  width: 100%;
+  border-radius: 24% 24% 0 0;
+}
+.right .box {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 0 8px;
+  border-radius: 0 0 24px 24px;
+  background: url(../images/dog22.jpeg);
+}
+.right .box button {
+  border-radius: 0;
+}
+.right .box h4 {
+  margin-top: 25px;
+}
+@media screen and (max-width: 991px) {
+  .right .zgbk img {
+    width: 100%;
+    border-radius: 0;
+  }
+  .right .box {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 0 8px;
+    border-radius: 0 0 24px 24px;
+    background: url(../images/dog22.jpeg);
+  }
+  .right .box button {
+    border-radius: 0;
+  }
+  .right .box h4 {
+    margin-top: 25px;
+  }
+}
